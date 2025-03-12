@@ -1,5 +1,5 @@
 {
-  "name": "@webnative/capacitor-filesharer",
+  "name": "@webnativellc/capacitor-filesharer",
   "version": "7.0.0",
   "description": "Capacitor plugin to download and share files for the Web, Android and iOS",
   "author": "Michael Oberwasserlechner",
