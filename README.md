@@ -1,6 +1,6 @@
 <p align="center"><br><img src="https://user-images.githubusercontent.com/236501/85893648-1c92e880-b7a8-11ea-926d-95355b8175c7.png" width="128" height="128" /></p>
 <h3 align="center">File Sharing</h3>
-<p align="center"><strong><code>@byteowls/capacitor-filesharer</code></strong></p>
+<p align="center"><strong><code>@webnativellc/capacitor-filesharer</code></strong></p>
 <p align="center">
     Capacitor File Sharing plugin
 </p>
@@ -8,10 +8,10 @@
 <p align="center">
     <img src="https://img.shields.io/maintenance/yes/2024?style=flat-square" />
     <a href="https://github.com/moberwasserlechner/capacitor-filesharer/actions?query=workflow%3ACI"><img src="https://img.shields.io/github/actions/workflow/status/moberwasserlechner/capacitor-filesharer/ci.yml?style=flat-square" /></a>
-    <a href="https://www.npmjs.com/package/@byteowls/capacitor-filesharer"><img src="https://img.shields.io/npm/l/@byteowls/capacitor-filesharer?style=flat-square" /></a>
+    <a href="https://www.npmjs.com/package/@webnativellc/capacitor-filesharer"><img src="https://img.shields.io/npm/l/@webnativellc/capacitor-filesharer?style=flat-square" /></a>
 <br>
-  <a href="https://www.npmjs.com/package/@byteowls/capacitor-filesharer"><img src="https://img.shields.io/npm/dw/@byteowls/capacitor-filesharer?style=flat-square" /></a>
-  <a href="https://www.npmjs.com/package/@byteowls/capacitor-filesharer"><img src="https://img.shields.io/npm/v/@byteowls/capacitor-filesharer?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@webnativellc/capacitor-filesharer"><img src="https://img.shields.io/npm/dw/@webnativellc/capacitor-filesharer?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@webnativellc/capacitor-filesharer"><img src="https://img.shields.io/npm/v/@webnativellc/capacitor-filesharer?style=flat-square" /></a>
 </p>
 
 ## Introduction
@@ -20,7 +20,7 @@ Capacitor plugin to share files on Android and iOS using the native share dialog
 ## Installation
 
 ```bash
-npm i @byteowls/capacitor-filesharer
+npm i @webnativellc/capacitor-filesharer
 npx cap sync
 ```
 
@@ -39,7 +39,7 @@ For further details on what has changed see the [CHANGELOG](https://github.com/m
 ```typescript
 import {
   FileSharer
-} from '@byteowls/capacitor-filesharer';
+} from '@webnativellc/capacitor-filesharer';
 
 @Component({
   template: '<button (click)="downloadButtonClick()">Download file</button>'
