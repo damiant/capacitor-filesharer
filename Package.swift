@@ -19,6 +19,14 @@ let package = Package(
                 .product(name: "Capacitor", package: "capacitor-swift-pm"),
                 .product(name: "Cordova", package: "capacitor-swift-pm")
             ],
-            path: "ios/WebnativellcCapacitorFilesharer/Sources")
+            path: "ios/WebnativellcCapacitorFilesharer/Sources",
+            exclude: [
+                "ByteowlsCapacitorFilesharer.h",
+                "ByteowlsCapacitorFilesharer.m",
+                "Info.plist"
+            ],
+            sources: [
+                "ByteowlsCapacitorFilesharer.swift"
+            ])
     ]
 )
